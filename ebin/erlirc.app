@@ -22,6 +22,12 @@
              ,irc_sup
              ,irc_user
              ,tcp_server
+             ,gen_irc_server
+             ,gen_tcp_server
+             ,irc_bot
+             ,irc_client_fsm
+             ,irc_server_fsm
+             ,simple_irc_server
             ]},
   {registered, [irc_sup]}
  ]}.
